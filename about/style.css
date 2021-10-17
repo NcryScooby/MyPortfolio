@@ -76,7 +76,23 @@ header {
   padding-top: 20px;
   text-align: center;
   color: #6e6e6e;
-  padding-left: 250px;
-  padding-right: 250px;
   font-size: 1.1em;
+  width: 100%;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #cecece;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  background: #F4F4F4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a5a5a5;
+}
+
+footer {
+  text-align: center;
 }
